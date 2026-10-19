@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPlaySong"
+            android:drawableTop="@drawable/baseline_play_arrow_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:text="TextView"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/baseline_delete_24"
+            android:backgroundTint="@color/lightgrey"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btnImportSong"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/lightgrey"
+            android:drawableTop="@drawable/baseline_info_outline_24" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

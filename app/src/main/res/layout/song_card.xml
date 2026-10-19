@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnPlaySong"
+            android:drawableTop="@drawable/baseline_play_arrow_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/lightgrey"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:text="TextView"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnHide"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/lightgrey"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:drawableTop="@drawable/baseline_delete_24"
+            android:backgroundTint="@color/lightgrey"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/lightgrey"
+            android:drawableTop="@drawable/baseline_info_outline_24"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
